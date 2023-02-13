@@ -1,0 +1,6 @@
+.profile_image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #2f3136;
+}
