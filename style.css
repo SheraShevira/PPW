@@ -61,3 +61,13 @@ ul li ul li a {
 ul li ul li:hover {
   background: #666;
 }
+#areaku {
+  width: 600px;
+  background-color: #ddd;
+  color: #222;
+  border: 2px solid blue;
+  padding: 10px;
+  border-radius: 20px;
+  overflow-x: auto;
+  text-align: center;
+}
