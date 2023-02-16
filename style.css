@@ -1,3 +1,16 @@
+h1{
+    color: blue;
+    font-size: 16px;
+}
+i,u{
+    color: red;
+}
+p{
+    color: #2f3136;
+}
+p.kanan{
+    text-align: right;
+}
 .profile_image {
     width: 150px;
     height: 150px;
