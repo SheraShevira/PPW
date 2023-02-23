@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
     <title>Welcome to my HTML</title>
   </head>
 
@@ -30,9 +31,54 @@
         </ul>
       </div>
     </nav>
+    <hr />
     <br />
+
+    <p>click pada button akan memanggil function dan outputnya di html</p>
+    <p>
+      <button onclick="satu()">Click me</button>
+      <button ondblclick="dua()">Double Click me</button>
+    </p>
+    <p id="demo"></p>
+    <hr />
+    <br />
+
+    <p>Click untuk menampilkan konfirmasi.</p>
+    <button onclick="konfirmasi()">Hapus</button>
+    <p id="konfirmasi"></p>
+    <hr />
+    <br />
+
+    <p>Click untuk menampilkan alert box.</p>
+    <button onclick="myAlert()">Coba</button>
+    <hr />
+    <br />
+
+    <p>Click Tambah untuk menghitung.</p>
+    <input
+      type="text"
+      name="v1"
+      id="var1"
+      class="form-control"
+      placeholder=""
+      required
+    />
+    <input
+      type="text"
+      name="v2"
+      id="var2"
+      class="form-control"
+      placeholder=""
+      required
+    />
+    <button onclick="hitung()">+</button>
+    <p id="Hasil"></p>
+    <hr />
+    <br />
+
     <div id="areaku">Ini Merupakan Contoh Membuat Box</div>
     <br />
+
     <h3>Daftar Kuliah Genap TA 2022/2023</h3>
     <table border="1">
       <tr>
